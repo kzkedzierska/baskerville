@@ -32,7 +32,7 @@ dependencies = [
     "scipy~=1.9.1",
     "statsmodels~=0.13.5",
     "tabulate~=0.8.10",
-    "tensorflow~=2.15.0",
+    "tensorflow=^2",
     "tqdm~=4.65.0",
     "pyfaidx~=0.7.1",
 ]
