@@ -1,13 +1,13 @@
 [tool.poetry]
 name = "baskerville"
-version = "0.1.0"                               
+version = "0.1.0"
 description = "baskerville"
 authors = ["Calico f(DNA) <drk@calicolabs.com>"]
 readme = "README.md"
 license = "MIT"
 
 [tool.poetry.dependencies]
-python = ">=3.9"
+python = ">=3.9,<3.12"
 h5py = ">=3.10.0"
 intervaltree = ">=3.1.0"
 joblib = ">=1.1.1"
@@ -45,6 +45,3 @@ tensorrt = "*"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
-
-[urls]
-Homepage = "https://github.com/kzkedzierska/baskerville"
