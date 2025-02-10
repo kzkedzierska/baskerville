@@ -50,6 +50,6 @@ gpu = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/calico/baskerville"
+Homepage = "https://github.com/kzkedzierska/baskerville"
 
 [tool.setuptools_scm]
